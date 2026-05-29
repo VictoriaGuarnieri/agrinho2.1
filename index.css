@@ -1,1 +1,23 @@
+/* Fonte pixel art estilo videogame */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+/* Cores do tema (fundo azul escuro, dourado, verde) */
+:root {
+  --background: 220 80% 14%;   /* Azul escuro */
+  --foreground: 0 0% 100%;     /* Branco */
+  --primary: 4 90% 55%;        /* Vermelho */
+  --secondary: 36 100% 55%;    /* Dourado */
+  --accent: 120 60% 45%;       /* Verde */
+}
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* sem barra de rolagem */
+}
+
+canvas {
+  display: block;
+  image-rendering: pixelated; /* visual pixel art nítido */
+}
